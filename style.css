@@ -1,0 +1,134 @@
+body {
+        background-image: url("catfront.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #FFC107; /* warm orange background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* slightly darker shadow */
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* darker text color */
+    font-weight: bold; /* bold font weight */
+}
+
+.note-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#note-text {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* lighter border color */
+    border-radius: 5px;
+    resize: none;
+    font-size: 16px;
+    font-weight: 300; /* lighter font weight */
+}
+
+#add-note {
+    padding: 10px 20px;
+    border: none;
+    background-color: #8BC34A; /* greenish background */
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold; /* bold font weight */
+}
+
+#add-note:hover {
+    background-color: #64DD17; /* brighter green background */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* slightly darker shadow */
+}
+
+#alldeletebutton {
+    background-color: #FFC107; /* warm orange background */
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold; /* bold font weight */
+}
+
+.note {
+    background: #fff; /* white background */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* slightly darker shadow */
+}
+
+.note p {
+    margin: 0;
+    flex: 1;
+    padding-right: 10px;
+    font-size: 14px; /* smaller font size */
+}
+
+.note-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.note-buttons button {
+    margin-left: 5px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 12px; /* smaller font size */
+}
+
+.pin {
+    background-color: #FFC107; /* warm orange background */
+    color: #fff;
+}
+
+.edit {
+    background-color: #2196F3; /* blue background */
+    color: #fff;
+}
+
+.delete {
+    background-color: #E74C3C; /* red background */
+    color: #fff;
+}
+
+.pin:hover {
+    background-color: #FFA07A; /* brighter orange background */
+}
+
+.edit:hover {
+    background-color: #0D47A1; /* darker blue background */
+}
+
+.delete:hover {
+    background-color: #C0392B; /* darker red background */
+}
